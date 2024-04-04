@@ -1,0 +1,59 @@
+jenkins
+
+
+yum install java-11-amazon-corretto.x86_64
+wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.82/bin/apache-tomcat-9.0.82.zip
+chmod -R 744 *
+./startup.sh
+wget https://updates.jenkins.io/download/war/2.361.3/jenkins.war
+cat /root/.jenkins/secrets/initialAdminPassword
+
+
+
+
+1  yum install update
+    2  clear
+    3  cd /
+    4  java -version
+    5  yum install java-11-amazon-corretto.x86_64 -y
+    6  clear
+    7  java -version
+    8  mkdir sunil
+    9  cd sunil/
+   10  ls
+   11  wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.83/bin/apache-tomcat-9.0.83.zip
+   12  clear
+   13  ls -ltr
+   14  unzip apache-tomcat-9.0.82.zip
+   15  clear
+   16  ls -ltr
+   17  rm -rf apache-tomcat-9.0.82.zip
+   18  cd apache-tomcat-9.0.82/
+   19  clear
+   20  ls -ltr
+   21  cd bin/
+   22  clear
+   23  ls -ltr
+   24  chmod -R 744 *
+   25  ls -ltr
+   26  ./startup.sh
+   27  clear
+   28  cd ../
+   29  cd webapps/
+   30  ls -ltr
+   31  wget https://updates.jenkins.io/download/war/2.361.3/jenkins.war
+   32  clear
+   33  ls -ltr
+   34  cat /root/.jenkins/secrets/initialAdminPassword
+   35  cd /root/.jenkins/workspace/
+   36  pwd
+   37  ls -ltr
+   38  history
+
+
+
+/var/jenkins_home/secrets/initialAdminPassword
+
+
+e4c1fcf9389f4b18a1169f0cdd3c5b84
+key
