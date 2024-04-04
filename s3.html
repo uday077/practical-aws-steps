@@ -1,0 +1,37 @@
+s3
+
+ create a bucket private = simple without policy bucket create ki
+ create a public access to your bucket = bucket ko private to public kar sakte ho with script
+ Object - S3 Object Properties - S3 Object Metadata - S3 Object Key = file ke under same file ki key change
+ S3 Versioning - What is Versioning - Prevent a Object from Deletion = versioning on karke aap uska backup or old file dekh sakte ho or same file ke old update dekh sakte ho
+ Host Static Website in S3 -How to host Static Website in S3 = host your static website
+ How to Redirect in S3 Static Website From one to another = redrect karega project ke page ko
+ How to Change Prefix in Static Website S3 - Redirect S3 Prefix in S3 = user ko esa ek page access karna chahta he jiska prefix uday tha uska usne nikhil kar diya or hmane file ke upar nhi folder ke upar kiya
+ S3 Accelerated Transfer/and use / unable = iska use ki user kitna dur ho usko data dal sakata he s3 me local se /user se konsi bhi file upload karva rahe to kar sakte he
+ AWS S3 - Configure Logging in S3 Bucket = apne bukcet ke logs ko ek dusre s3 bucket me dal sakte he 9(bana sakte he)
+ AWS S3 - Storage Classes = theri 70/ lecture to define all multipule storage types
+
+
+
+iam
+
+ user / policy / attech aws service
+ create group / policy / attech aws service
+ password set and policy
+ MFA set to multi stages
+ create iam policy and apply to your ec2 instance
+
+
+
+
+
+[
+    {
+        "Condition": {
+            "KeyPrefixEquals": "nikhil/"
+        },
+        "Redirect": {
+            "ReplaceKeyPrefixWith": "uday/"
+        }
+    }
+]
