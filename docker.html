@@ -1,0 +1,72 @@
+Docker besic cmd
+
+
+    1  docker -version
+    2  docker -v
+    3  yum install docker -y
+    4  docker -v
+    5  systemctl start docker
+    6  docker images
+    7  docker ps
+    8  docker ps -a
+    9  docker images ls
+   10  docker pull hello-world
+   11  docker images
+   12  docker run hello-world
+   13  docker ps
+   14  docker ps -a
+   15  docker rm 9bb441357fed
+   16  docker ps -a
+   17  docker images
+   18  docker rmi -f hello-world
+   19  docker images
+   20  docker pull hello-world
+   21  docker images
+   22  docker image prune -af
+   23  cd /var/lib/docker/
+   24  ls
+   25  cd image/
+   26  ls
+   27  cd overlay2/
+   28  ls -ltr
+   29  cd
+   30  docker --help
+   31  docker images
+   32  docker ps -a
+   33  docker ps
+   34  clear
+   35  docker pull ubuntu:18.04
+   36  docker images
+   37  docker run ubuntu:18.04 echo "hello world"
+   38  docker ps -a
+   39  clear
+   40  docker run ubuntu:18.04 ps -ef
+   41  docker ps -a
+   42  docker images
+   43  clear
+   44  docker images
+   45  docker run -it ubuntu:18.04 bash
+   46  docker ps -a
+   47  docker run -it ubuntu:18.04 bash
+   48  docker ps -a
+   49  clear
+   50  docker ps
+   51  docker stop 363b6718bf68
+   52  docker ps
+   53  docker ps -a
+   54  docker start 363b6718bf68
+   55  docker ps -a
+   56  docker ps
+   57  docker ps -a
+   58  docker kill 363b6718bf68
+   59  docker ps -a
+   60  docker ps
+   61  clear
+   62  docker ps -a
+   63  docker rm 363b6718bf68 0db079c99aa2 f12623cdf382 13f25a339575
+   64  docker ps -a
+   65  docker ps
+   66  docker images
+   67  docker image prune -af
+   68  docker images
+   69  history
